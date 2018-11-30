@@ -1,9 +1,9 @@
 //Write a program to implement tower of Hanoi problem..
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
-using namespace std;//remove this
+//using namespace std;
 void towers(int, char, char, char);
-int main()//replace int with void
+void main()
 {
     int num;
     //clrscr();// decomment this...

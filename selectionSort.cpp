@@ -1,10 +1,10 @@
 //Write a program to implement selection sort.
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
-using namespace std;
+//using namespace std;
 int main()
 {
-    //clrscr();
+    clrscr();
     int size, arr[50], i, j, temp;
     cout << "Enter size of an array:";
     cin >> size;

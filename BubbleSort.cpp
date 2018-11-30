@@ -1,10 +1,10 @@
 //Write a program to implement bubble sort.
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
-using namespace std;
-int main()
+//using namespace std;
+void main()
 {
-    //clrscr();
+    clrscr();
     int a[50], n, i, j, temp;
     cout << "Enter the size of array:";
     cin >> n;

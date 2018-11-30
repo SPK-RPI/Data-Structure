@@ -1,11 +1,11 @@
 //Write a program to search element using binary search.
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
-using namespace std;
+//using namespace std;
 
-int  main()
+void  main()
 {
-    //clrscr();
+    clrscr();
     int n, arr[50], search, first, last, middle, i;
     cout << "Enter the total number of elements:";
     cin >> n;

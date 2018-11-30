@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
 #include <stdlib.h>
-using namespace std;
+//using namespace std;
 void insertionSort(int arr[], int n)
 {
     int i, key, j;
@@ -32,8 +32,8 @@ void printArray(int arr[], int n)
 }
 
 /* Driver program to test insertion sort */
-int main()
-{
+void main()
+{   clrscr()
     int arr[] = {12, 11, 13, 5, 6};
 
     int n = sizeof(arr) / sizeof(arr[0]);

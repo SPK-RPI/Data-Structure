@@ -1,10 +1,10 @@
 //write a program to search the element using sequential search
 #include <iostream>
 #include <conio.h>
-using namespace std; //remove this line
-int main()          //remove int and place void
+//using namespace std; //remove this line
+void main()          //remove int and place void
 {
-    //clrscr();
+    clrscr();
     cout << "Enter the size of an array:";
     int size;
     cin >> size;

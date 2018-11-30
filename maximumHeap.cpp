@@ -1,7 +1,7 @@
 //Write a program to insert the element into maximum heap.
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
-using namespace std;
+//using namespace std;
 int max_heapify(int *a, int i, int n)
 {
     int j, temp;
@@ -30,9 +30,9 @@ void build_maxheap(int *a, int n)
         max_heapify(a, i, n);
     }
 }
-int main()
+void main()
 {
-    //clrscr();
+    clrscr();
     int n, i, x;
     cout << "Enter no. of elements of an array:";
     cin >> n;

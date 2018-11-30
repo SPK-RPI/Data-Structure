@@ -2,7 +2,7 @@
 #include <iostream>
 #include <conio.h>
 #include <stdlib.h>
-using namespace std;
+//using namespace std;
 class stack
 {
     int stk[5];
@@ -47,9 +47,9 @@ class stack
         cout << "\n====== MENU ======" << endl;
     }
 };
-int main()
+void main()
 {
-    //clrscr();
+    clrscr();
     int ch;
     stack st;
     while (true)

@@ -1,8 +1,8 @@
 //Write a program to implement the concept of queue with insert, delete, and display and exit operations.
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
 #include <stdlib.h>
-using namespace std;//remove this line....
+//using namespace std;//remove this line....
 class queue
 {
     int queue1[5];
@@ -47,7 +47,7 @@ class queue
 };
 int main()
 {
-    //clrscr();
+    clrscr();
     int ch;
     queue qu;
     while (true)

@@ -1,7 +1,7 @@
 //Write a program to insert the elements into minimum heap.
-#include <iostream>
+#include <iostream.h>
 #include <conio.h>
-using namespace std;
+//using namespace std;
 void min_heapify(int *a, int i, int n)
 {
     int j, temp;
@@ -30,7 +30,7 @@ void build_minheap(int *a, int n)
         min_heapify(a, i, n);
     }
 }
-int main()
+void main()
 {
     //clrscr();
     int n, i, x;

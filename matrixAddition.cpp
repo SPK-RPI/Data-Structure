@@ -1,10 +1,10 @@
 //Write a program to perform addition .
-#include <iostream> //include<iostream.h>
+#include <iostream.h> //include<iostream.h>
 #include <conio.h>
-using namespace std; // remove this.....
-int main()           // put void....
+//using namespace std; // remove this.....
+void main()           // put void....
 {
-    //clrscr();
+    clrscr();
     int i, j, mat1[3][3], mat2[3][3], mat3[3][3];
     cout << "Enter matrix 1 elements:\n";
     for (i = 0; i < 3; i++)
